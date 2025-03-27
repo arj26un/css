@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(234, 17, 17);
+}
+a{
+    color: yellow;
+}
+#bg{
+    font-size:56px;
+   /* width: 350px;*/
+    height: 100px;
+    background-color: aqua;
+}
+.box{
+   
+    height: 100px;
+    width: 100px;
+   
+    background-color: brown;
+    display: inline-block;
+    
+    margin: 5px;
+}
+.container{
+    margin: 5px;
+     border: 2px solid black;
+}
+#box3{
+    position: fixed;
+    right: 10px;
+}
+#box4{
+    z-index: 2;
+    position: absolute;
+   left: 15px;
+}
+footer{
+    border: 2PX SOLID black;
+    background-color: bisque;
+   position:absolute;
+   bottom:2px
+}

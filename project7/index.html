@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project7</title>
+    <style>
+        .progress_container{
+            height: 30px;
+            width: 95%;
+            background-color: darkkhaki;
+            border: 2px solid black;
+            border-radius: 25px;
+            
+        }
+        .progress_bar{
+            background-color: crimson;
+            height: 100%;
+            border-radius: 25px;
+            animation : animation_progress 5s infinite;
+        }
+        @keyframes animation_progress {
+            0%{
+                width: 0%;
+            }
+            90%{
+                width:95%;
+            }
+            95%{
+                width:70%;
+            }
+            100%{
+                width:100%
+            }
+            
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="progress_container">
+        <div class="progress_bar">
+           
+        </div>
+    </div>
+</body>
+</html>
